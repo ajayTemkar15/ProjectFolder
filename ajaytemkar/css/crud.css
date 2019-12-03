@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Philosopher';
+}
+
+body{
+  background: url('../images/bg.jpg');
+  background-size: cover;
+
+
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  /* background: url('../images/bg.jpg');
+  background-size: cover; */
+
+}
+
+.mySelect{
+  width: 150px;
+}
+
+.myForm{
+box-sizing: border-box;
+box-shadow: 5px 10px 15px black;
+width: 55%;
+border-radius: 15px;
+
+}
+.head{
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
